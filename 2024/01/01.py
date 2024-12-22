@@ -18,7 +18,7 @@ def b():
     counter = Counter(right)
 
     score = 0
-    for l in set(left):
+    for l in left:
       score += l * counter[l]
     print(score)
 
